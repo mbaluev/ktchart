@@ -1,0 +1,69 @@
+/* ----------------------------------------------------------------------- */
+/* Кастомное переопределение стилей из ktnti.css (ибо верстка расползлась) */
+/* ----------------------------------------------------------------------- */
+
+.fixed-top { box-shadow: none !important; }
+
+#wrapper { width: 100%; height: 100%; border-top: solid 1px #ddd; margin-top: 0; box-sizing: border-box; }
+#wrapper .filter { margin: 0; padding: 0; }
+#wrapper .filter .nav>li { vertical-align: top; }
+/*#wrapper .panel-main { border-top: solid 1px #ddd; }*/
+#wrapper .panel-info .pi-header .nav { margin: 0px !important; padding: 0px !important; background-color: #f9f9f9 !important; }
+#wrapper .panel-info .pi-header .nav>li a { margin-left: 0; font-size: 12px; }
+#wrapper .panel-info .pi-body { background-color: white; }
+#wrapper .panel-info .tab-pane > ul,
+#wrapper .panel-info .ktsource > ul,
+#wrapper .panel-info .kttarget > ul { padding-left: 0; }
+
+/*buttons*/
+/*
+#wrapper .filter .i-btn { background-color: #58c9f3; }
+#wrapper .filter .i-btn:hover { background-color: #58c9f3 !important; opacity: .5; }
+#wrapper .i-btn { border-radius: 5px; display: block; height: 30px; box-sizing: border-box; }
+#wrapper .i { background-position: center center; background-repeat: no-repeat; width: 30px; height: 30px; display: block; float: left; background-size: 32px; }
+#wrapper .i.i-bars { background-image: url("/asyst/img/svg/img-menu.svg"); }
+*/
+/*buttons*/
+
+/*chosen select*/
+#wrapper .chosen-container-single { font-size: 12px; }
+#wrapper .chosen-container-single .chosen-single div { width: 20px; }
+#wrapper .chosen-container-single .chosen-single div b { background: url('../img/icons/caret.svg') no-repeat 0px 11px !important; background-size: 12px !important; }
+#wrapper .chosen-container-single .chosen-single div b:hover { opacity: .5; }
+#wrapper .chosen-container-single .chosen-single { padding: 0 0 0 10px; height: 30px; line-height: 28px; background: #fff; box-shadow: none; border-color: #ddd; border-radius: 3px; }
+#wrapper .chosen-container-single .chosen-single:hover { border-color: #ff4800 !important; }
+#wrapper .chosen-container-single .chosen-single abbr {
+    position: absolute; top: 8px; right: 30px; display: block; width: 12px; height: 12px;
+    background: url('../img/icons/close.svg') no-repeat;
+    background-position:  0px 0px !important;
+    background-size: 12px !important;
+}
+#wrapper .chosen-container-single .chosen-single abbr:hover { opacity: .5; }
+#wrapper .chosen-container-active.chosen-with-drop .chosen-single { background: #fff; border-color: #ddd !important; }
+#wrapper .chosen-container-single .chosen-single-with-deselect span { margin-right: 50px; }
+#wrapper .chosen-container-active.chosen-with-drop .chosen-single div b { background: url('../img/icons/caret.svg') no-repeat 0px 9px; background-size: 12px; }
+#wrapper .chosen-container .chosen-drop { border-color: #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) }
+#wrapper .chosen-container-single .chosen-search input[type="text"] { border-color: #ddd; padding: 4px 20px 4px 5px !important; background: none !important; }
+#wrapper .chosen-container-single .chosen-search input[type="text"]:focus { border-color: #ff4800; box-shadow: none; }
+#wrapper .chosen-container .chosen-results li.highlighted { background: #f9f9f9; color: #ff4800; }
+/*chosen select*/
+
+/*multiple select*/
+#wrapper .ms-parent { margin-right: 0px; }
+#wrapper .ms-parent * { font-size: 12px; font-family: 'Segoe UI', 'Segoe', Tahoma, Helvetica, Arial, 'Open Sans', sans-serif; }
+#wrapper .ms-parent .ms-choice { outline: none; padding: 0 0 0 10px; height: 30px; line-height: 28px; background: #fff; box-shadow: none; border-color: #ddd; border-radius: 3px; }
+#wrapper .ms-parent .ms-choice:hover { border-color: #ff4800 !important; }
+#wrapper .ms-parent .ms-choice.ms-open { border-color: #ddd !important; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }
+#wrapper .ms-parent .ms-choice > span { position: relative; padding: 0; margin-right: 26px; }
+#wrapper .ms-parent .ms-choice > div { height: 100%; background: url('../img/icons/caret.svg') no-repeat 0px 12px !important; background-size: 12px !important; }
+#wrapper .ms-parent .ms-choice > div:hover { opacity: .5; }
+#wrapper .ms-parent .ms-drop { border-color: #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); margin-top: -1px; }
+#wrapper .ms-parent .ms-search { padding: 5px 4px; }
+#wrapper .ms-parent .ms-search input { border-color: #ddd; padding: 4px 20px 4px 5px; background: none; }
+#wrapper .ms-parent .ms-search input:focus { border-color: #ff4800; box-shadow: none; }
+#wrapper .ms-parent .ms-drop ul > li label { white-space: normal; padding: 5px 4px; margin: 0px; line-height: 15px; }
+#wrapper .ms-parent .ms-drop ul > li label input[type="checkbox"] { margin: -3px 7px 0px 0; }
+#wrapper .ms-parent .ms-drop ul > li:hover label { background: #f9f9f9; color: #ff4800; cursor: pointer; }
+#wrapper .ms-parent .ms-drop ul > li.selected label { color: #ff4800; }
+#wrapper .ms-parent .ms-drop .ms-no-results { padding: 5px 4px; margin: 0px; line-height: 15px; background-color: #f4f4f4; }
+/*multiple select*/

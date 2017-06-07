@@ -1,0 +1,48 @@
+
+.btn {
+    background-color: #fff;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+	color: #333;
+    font-weight: bold;
+    border: solid 2px #666;
+	padding: 4px 15px;
+	font-size: 12px;
+}
+.btn:hover {
+	text-shadow: none;
+	background-color: #666;
+    border: solid 2px #666;
+	color: #fff;
+}
+.btn:active,
+.btn:focus { outline: none; background-color: transparent; }
+
+.btn { margin-right: 15px; }
+.btn.pull-right { margin-right: 0; margin-left: 15px; }
+
+.btn-large { padding: 8px 16px; font-size: 13px; }
+.btn-small { line-height: inherit; border-radius: 15px; padding: 5px 15px; }
+.btn-xs { line-height: inherit; border-radius: 3px; padding: 0px 10px; border-width: 1px; font-size: 11px; font-weight: normal; }
+.btn-xs:hover { border-width: 1px; }
+.btn-xs:active { background-color: #666; }
+
+.btn-danger { border-color: #ff4800; color: #ff4800; }
+.btn-danger:hover { background-color: #ff4800; border: solid 2px #ff4800; }
+
+.btn-danger.disabled, .btn-danger[disabled] { border-color: #bbb; background-color: #fff; color: #bbb; }
+
+.btn-group > .btn { margin-right: 10px; margin-bottom: 10px; border-width: 1px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border--radius: 15px; font-size: 12px; }
+.btn-group > .btn.btn-danger { color: #333; border-color: #ddd; }
+.btn-group > .btn.btn-danger:hover { background-color: transparent; border-color: #ff4800; }
+.btn-group > .btn:first-child { margin-left: 0; -webkit-border-radius: 15px; -moz-border-radius: 15px; border--radius: 15px; }
+.btn-group > .btn:last-child { margin-right: 0; -webkit-border-radius: 15px; -moz-border-radius: 15px; border--radius: 15px; }
+
+.btn-group > .btn:active,
+.btn-group > .btn:focus { outline: none; background-color: transparent; }
+
+.btn-group > .btn.btn-active { padding-left: 25px; }
+.btn-group > .btn.btn-active:before { content: " "; display: block; width: 6px; height: 6px; background-color: #ff4800; position: absolute; left: 10px; top: 10px; 
+	-webkit-border-radius: 100%; -moz-border-radius: 100%; border--radius: 100%; }
+
