@@ -227,7 +227,7 @@
                 html: true,
                 title: 'Применить фильтр',
                 container: 'body',
-                placement: 'top',
+                placement: 'bottom',
                 trigger: 'hover'
             });
             self.dom.panel_filter.find('.' + self.class.panel_filter_buttons).append($lir.append($btn));
@@ -240,7 +240,7 @@
                 html: true,
                 title: 'Очистить фильтр',
                 container: 'body',
-                placement: 'top',
+                placement: 'bottom',
                 trigger: 'hover'
             });
             self.dom.panel_filter.find('.' + self.class.panel_filter_buttons).append($lir.append($btn));
@@ -253,7 +253,7 @@
                 html: true,
                 title: 'Скрыть / показать легенду',
                 container: 'body',
-                placement: 'top',
+                placement: 'bottom',
                 trigger: 'hover'
             });
             self.dom.panel_filter.find('.' + self.class.panel_filter_buttons).append($lir.append($btn));
@@ -266,7 +266,7 @@
                 html: true,
                 title: 'Скрыть / показать панель информации',
                 container: 'body',
-                placement: 'top',
+                placement: 'bottom',
                 trigger: 'hover'
             });
             self.dom.panel_filter.find('.' + self.class.panel_filter_buttons).append($lir.append($btn));
